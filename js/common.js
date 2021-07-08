@@ -40,9 +40,6 @@ $(window).on('resize', function(){
 });
 // Navbar end
 
-
-
-
 // $('.banner_sec').slick({
 //   dots: true,
 //   infinite: true,
@@ -52,9 +49,14 @@ $(window).on('resize', function(){
 //   adaptiveHeight: true
 // });
 
-
-
-
+$(window).on('scroll', function(){
+    if($(window).scrollTop()){
+        $("header").addClass("sticky");
+    }
+    else{ 
+        $("header").removeClass("sticky");
+    }
+});
 
 })
 
