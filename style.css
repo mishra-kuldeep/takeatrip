@@ -242,7 +242,7 @@ border:none; -webkit-border-radius: 0; -moz-border-radius: 0;
 /* navbar submenu*/
 .sub-menu{background: #fff;position: absolute;top: 100%;left: 0;z-index: 1000;
 	display: none;border: 1px solid rgba(0, 0, 0, 0.15); -webkit-border-radius: 0; -moz-border-radius: 0;
-  -ms-border-radius: 0; -o-border-radius: 0;border-radius: 0; width: 140px; padding: 0;}
+  -ms-border-radius: 0; -o-border-radius: 0;border-radius: 0; width: 230px; padding: 0;}
   
 .sub-menu > li > a{color: #425964; display: block; width: 100%; padding: 5px 10px;}
 
