@@ -40,14 +40,18 @@ $(window).on('resize', function(){
 });
 // Navbar end
 
-// $('.banner_sec').slick({
-//   dots: true,
-//   infinite: true,
-//   arrows: false,
-//   speed: 300,
-//   slidesToShow: 1,
-//   adaptiveHeight: true
-// });
+$('.banner-slide').slick({
+  dots: true,
+  infinite: true,
+  arrows: false,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  fade: true,
+  cssEase: 'linear',
+  speed: 900,
+  slidesToShow: 1,
+  adaptiveHeight: true
+});
 
 $(window).on('scroll', function(){
     if($(window).scrollTop()){
