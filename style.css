@@ -437,6 +437,9 @@ border:none; -webkit-border-radius: 0; -moz-border-radius: 0;
   margin-bottom: 0;
 }
 
+.contact-sec .cmn-heading h2{ color: #fff; }
+
+.contact-sec h2::before{ background: #fff; }
 
 .contact-sec .contact-list ul li:first-child{ width: 40%; padding-right: 50px; }
 
@@ -460,6 +463,7 @@ border:none; -webkit-border-radius: 0; -moz-border-radius: 0;
   position: absolute;
   top: 4px;
   left: 0;
+  filter: brightness(0) invert(1);
 }
 
 .contact-sec .contact-list ul li .address,
@@ -471,13 +475,13 @@ border:none; -webkit-border-radius: 0; -moz-border-radius: 0;
 .contact-sec .contact-list ul li .mail:last-child{ margin-bottom: 0; }
 
 .contact-sec .contact-list ul li .list-col span,
-.contact-sec .contact-list ul li .list-col a{ display: inline-block; font-size: 20px; font-weight: 600; }
+.contact-sec .contact-list ul li .list-col a{ display: inline-block; font-size: 20px; font-weight: 600; color: #fff; }
 
-.contact-sec .contact-list ul li .list-col a{ color: #000; }
+.contact-sec .contact-list ul li .list-col a{ color: #fff; }
 
 .contact-sec .contact-list ul li .list-col a:hover{ color: #fab017; }
 
-.contact-sec .contact-list ul li h4{ font-size: 27px; color: #27367e; }
+.contact-sec .contact-list ul li h4{ font-size: 27px; color: #fff; }
 
 .contact-sec .contact-list ul li::before{ 
   content: "";
@@ -486,7 +490,7 @@ border:none; -webkit-border-radius: 0; -moz-border-radius: 0;
   right: 0;
   width: 1px;
   height: 100%;
-  background: rgba(0, 0, 0, 0.12);
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .contact-sec .contact-list ul li:last-child:before{ display: none; }
@@ -573,6 +577,30 @@ border:none; -webkit-border-radius: 0; -moz-border-radius: 0;
 
 .about-section .about-cont h3 span i{ display: inline-block; margin: 0 5px; width: 30px; height: 36px; }
 
+.contact-page::before{ display: none; }
+
+.contact-page  .contact-list ul li .list-col span, 
+.contact-page  .contact-list ul li .list-col a{ color: #000; }
+
+.contact-page  .cmn-heading h2,
+.contact-page .contact-list ul li h4{ color: #27367e; }
+
+.contact-page .contact-list ul li::before{ 
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.contact-page  .cmn-heading h2::before{ background: #27367e; }
+
+.contact-page .contact-list ul li .address i, 
+.contact-page .contact-list ul li .contact i, 
+.contact-page .contact-list ul li .mail i{ filter: inherit; }
+
 .contact-page .contact-list ul li{ margin-bottom: 50px; }
 
 .contact-page .contact-list ul li:last-child{ padding-left: 15px; }
@@ -623,7 +651,23 @@ border:none; -webkit-border-radius: 0; -moz-border-radius: 0;
 
 .andaman-sec .andaman-col{ margin-bottom: 30px; }
 
-.andaman-sec .andaman-row{ margin-bottom: -30px; justify-content: center; } 
+.andaman-sec .andaman-row{ margin-bottom: -30px; justify-content: center; }
+
+.car-rental .content h3{ color: #27367e; }
+
+.contact-sec{ background-size: cover !important; position: relative; background-attachment: fixed !important; }
+
+.contact-sec::before{ 
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+}
+
+.car-rental .car-left img{ width: 100%; }
   
 @media(min-width:1025px){
 
@@ -809,6 +853,8 @@ h4 {
   font-size: 18px;
 }
 
+.car-rental .car-left{ margin-bottom: 30px; }
+
 }
 
 
@@ -867,6 +913,15 @@ h4 {
 .contact-page .contact-list ul li:nth-child(3){ padding-left: 15px; }
 
 .andaman-sec .package-card a{ font-size: 20px; }
+
+.contact-page .contact-list ul li{ border-bottom: 1px solid #000; padding-bottom: 30px; }
+
+.contact-page .contact-list ul li:first-child{ border: none; padding-bottom: 0; }
+
+.contact-sec .contact-list ul li{ border-bottom: 1px solid #fff; padding-bottom: 30px; }
+
+.contact-sec .contact-list ul li:first-child{ border: none; padding-bottom: 0; }
+
 
 }
 
