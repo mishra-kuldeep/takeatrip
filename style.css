@@ -218,7 +218,7 @@ border:none; -webkit-border-radius: 0; -moz-border-radius: 0;
 
 .navbar-nav > li:first-child{margin-left:0;}
 
-.navbar-nav > li > a{ color: #fff; font-weight: 600; position: relative; padding-bottom: 10px; }
+.navbar-nav > li > a{ color: #000; font-weight: 600; position: relative; padding-bottom: 10px; }
 
 .navbar-nav > li > a::before{ 
   content: "";
@@ -272,7 +272,7 @@ border:none; -webkit-border-radius: 0; -moz-border-radius: 0;
   top: 0;
   left: 0;
   width: 100%;
-  background: transparent;
+  background: #fff;
   z-index: 9;
   transition: 0.5s ease-in-out;
 }
@@ -293,19 +293,14 @@ border:none; -webkit-border-radius: 0; -moz-border-radius: 0;
 
 .main-head.sticky .navbar-nav > li > a{ color: #000; }
 
-
-.banner-section{ 
-  position: relative;
-  line-height: 0;
-}
+.banner-section{  position: relative; line-height: 0; margin-top: 111px; }
 
 .banner-section .slick-dotted.slick-slider{ margin-bottom: 0; }
 
 .banner-section .banner-slide img{ width: 100%; }
 
-.inner-banner{ position: relative; }
+.inner-banner{ position: relative; margin-top: 111px; }
 
-.banner-section::before,
 .inner-banner::before{ 
   content: "";
   position: absolute;
@@ -696,6 +691,9 @@ h1 {
 
 .inner-banner > img{ height: 320px; object-fit: cover; object-position: center; }
 
+.banner-section,
+.inner-banner{ margin-top: 94px; }
+
 }
 
 
@@ -726,9 +724,11 @@ h1 {
 
 @media (max-width: 991px) {
 
-.banner-section .banner-slide img{ height: 320px; object-fit: cover; object-position: center; }
+.banner-section .banner-slide img{ height: 210px; object-fit: cover; object-position: center; }
 
 .banner-section .slick-dots li button{ width: 10px; height: 10px; }
+
+.banner-section .slick-dots{ bottom: 5px; }
 
 .navbar-toggler{ 
   position: relative;
@@ -745,7 +745,7 @@ h1 {
   left: 0;
   right: 0;
   width: 100%;
-  background: #fff;
+  background: #000;
   height: 2px;
   border-radius: 20px;
   transition: 0.5s ease-in-out;
@@ -856,6 +856,9 @@ h4 {
 }
 
 .car-rental .car-left{ margin-bottom: 30px; }
+
+.banner-section,
+.inner-banner{ margin-top: 91px; }
 
 }
 
