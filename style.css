@@ -615,7 +615,7 @@ border:none; -webkit-border-radius: 0; -moz-border-radius: 0;
 
 .packges-cont p a{ display: inline-block; color: #fab017 !important; }
 
-.packges-cont p a:hover{ color: #000; }
+.packges-cont p a:hover{ color: #000 !important; }
 
 .andaman-sec .package-card{ 
   position: relative;
