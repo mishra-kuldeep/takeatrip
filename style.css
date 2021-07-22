@@ -301,7 +301,7 @@ border:none; -webkit-border-radius: 0; -moz-border-radius: 0;
 
 .inner-banner{ position: relative; margin-top: 111px; }
 
-/* .inner-banner::before{ 
+.inner-banner::before{ 
   content: "";
   position: absolute;
   top: 0;
@@ -310,8 +310,9 @@ border:none; -webkit-border-radius: 0; -moz-border-radius: 0;
   height: 100%;
   background: rgba(0, 0, 0,  0.2);
   z-index: 2;
-} */
+}
 
+.car-rental::before{ display: none; }
 
 .inner-banner  .banner-cont{ 
   position: absolute;
