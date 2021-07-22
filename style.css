@@ -699,8 +699,6 @@ h1 {
   line-height: 1.2;
 }
 
-.inner-banner > img{ height: 320px; object-fit: cover; object-position: center; }
-
 .banner-section,
 .inner-banner{ margin-top: 134px; }
 
@@ -934,6 +932,11 @@ h4 {
 .contact-sec .contact-list ul li{ border-bottom: 1px solid #fff; padding-bottom: 30px; }
 
 .contact-sec .contact-list ul li:first-child{ border: none; padding-bottom: 0; }
+
+.banner-section .banner-slide img{ height: 200px; object-fit: cover; object-position: center; }
+
+.inner-banner > img{ height: 170px; object-fit: cover; object-position: center; }
+
 
 }
 
