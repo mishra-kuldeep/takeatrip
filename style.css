@@ -293,7 +293,7 @@ border:none; -webkit-border-radius: 0; -moz-border-radius: 0;
 
 .main-head.sticky .navbar-nav > li > a{ color: #000; }
 
-.banner-section{  position: relative; line-height: 0; margin-top: 111px; }
+.banner-section{  position: relative; line-height: 0; margin-top: 151px; }
 
 .banner-section .slick-dotted.slick-slider{ margin-bottom: 0; }
 
@@ -312,6 +312,7 @@ border:none; -webkit-border-radius: 0; -moz-border-radius: 0;
   z-index: 2;
 }
 
+.car-rental::before{ display: none; }
 
 .inner-banner  .banner-cont{ 
   position: absolute;
@@ -562,6 +563,10 @@ border:none; -webkit-border-radius: 0; -moz-border-radius: 0;
 
 .footer-sec .footer-bottom p{ color: #fff; font-size: 14px; }
 
+.footer-sec .footer-bottom p a{ display: inline-block; color: #fff; }
+
+.footer-sec .footer-bottom p a:hover{ color: #fab017; }
+
 .about-section .about-image{ border-radius: 10px; overflow: hidden; }
 
 .about-section .about-image img{ width: 100%; }
@@ -665,6 +670,11 @@ border:none; -webkit-border-radius: 0; -moz-border-radius: 0;
 }
 
 .car-rental .car-left img{ width: 100%; }
+
+.main-head .runner{ padding: 5px 0; background: #27367e; color: #fff; }
+
+.about-sec .about-left img{ width: 100%; }
+
   
 @media(min-width:1025px){
 
@@ -689,10 +699,8 @@ h1 {
   line-height: 1.2;
 }
 
-.inner-banner > img{ height: 320px; object-fit: cover; object-position: center; }
-
 .banner-section,
-.inner-banner{ margin-top: 94px; }
+.inner-banner{ margin-top: 134px; }
 
 }
 
@@ -724,7 +732,7 @@ h1 {
 
 @media (max-width: 991px) {
 
-.banner-section .banner-slide img{ height: 210px; object-fit: cover; object-position: center; }
+/* .banner-section .banner-slide img{ height: 210px; object-fit: cover; object-position: center; } */
 
 .banner-section .slick-dots li button{ width: 10px; height: 10px; }
 
@@ -858,7 +866,7 @@ h4 {
 .car-rental .car-left{ margin-bottom: 30px; }
 
 .banner-section,
-.inner-banner{ margin-top: 91px; }
+.inner-banner{ margin-top: 130px; }
 
 }
 
@@ -924,6 +932,11 @@ h4 {
 .contact-sec .contact-list ul li{ border-bottom: 1px solid #fff; padding-bottom: 30px; }
 
 .contact-sec .contact-list ul li:first-child{ border: none; padding-bottom: 0; }
+
+.banner-section .banner-slide img{ height: 200px; object-fit: cover; object-position: center; }
+
+.inner-banner > img{ height: 170px; object-fit: cover; object-position: center; }
+
 
 }
 
